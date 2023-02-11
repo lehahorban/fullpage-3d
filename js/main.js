@@ -32,6 +32,8 @@ function changeBg() {
     });
   });
 
+  console.log(screens);
+
   screens.forEach((screen) => {
     screen.style.display = "none";
     screens[0].style.display = "block";
